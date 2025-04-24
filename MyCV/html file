@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamnah Jabeen (CV) </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="cv.css">
+</head>
+<body>
+    <div class="container">
+<div class="left-side">
+    <div class="profile-text">
+        <div class="img-box">
+            <img src="images/me.jpeg" alt="profile-pic">
+        </div>
+        <h2>Hamnah Jabeen <br> <span>FONTEND ASPIRANT</span></h2>
+    </div>
+    <div class="contact-info">
+        <h3 class="title">Contact Info</h3>
+        <ul>
+            <li>
+                <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                <span class="text">+92 321 9448220</span>
+            </li>
+            <li>
+                <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                <span class="text"><a href="mailto: hamnahjabeen@gmail.com">hamnahjabeen@gmail.com</a></span>
+          
+            </li>
+            <li>
+                <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                <span class="text">www.hamnahjabeen.com</span>
+                
+            </li>
+            <li>
+                <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+                <span class="text"><A href="https://www.linkedin.com/in/hamnah-jabeen-36b337345/">www.linkedin.com/in/hamnah-jabeen</A></span>
+               
+            </li>
+            <li>
+                <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                <span class="text">Lahore, Punjab, Pakistan </span>
+                
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="contact-info education">
+        <h2 class="title">Education</h2>
+        <ul>
+            <li>
+                <h4>2025</h4>
+                <h3>BS Degree in Computer Science</h3>
+                <h3>COMSATS University Islamabad</h3>
+            </li>
+            <li>
+                <h4>2022-2024</h4>
+                <h3>Fsc.Intermediate</h3>
+                <h3>Punjab Group of Colleges</h3>
+            </li>
+            <li>
+                <h4>2022</h4>
+                <h3>Matric</h3>
+                <h3>Sicas</h3>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="right-side">
+    <div class="about">
+        <h2 class="title2">Profile</h2>
+        <p>Aspiring Frontend Developer with a foundational knowledge of HTML and CSS with a strong desire to become proficient in JAVASCRIPT and frontend frameworks. Stalwart to deliver high-quality, responsive web designs that offer pre-eminent user experience. Eager to master new skills and intercept challenging problems. A self-motivated learner open to opportunities that will allow me to gain hands-on experience and expand my proficeincy in web development.</p>
+    </div>
+    <div class="about skills">
+        <h2 class="title2">Professional skills</h2>
+        <div class="box">
+            <h4>HTML</h4>
+            <div class="percent">
+                <div style="width: 90%;"></div>
+            </div>
+        </div>
+        <div class="box">
+            <h4>CSS</h4>
+            <div class="percent">
+                <div style="width: 60%;"></div>
+                        </div>
+        </div>
+        <div class="box">
+            <h4>JAVASCRIPT</h4>
+            <div class="percent">
+                <div style="width: 0%;"></div>
+                        </div>
+        </div>
+</div>
+<div class="about interests">
+    <h2 class="title2">INTERESTS</h2>
+    <ul>
+        <li><span><strong>Frontend Development</strong></span>: Enthusiast of modern frontend technologies like HTML, CSS, JavaScript, and libraries such as React. Passionate about building responsive, user-friendly websites.</li><br>
+        <li><span><strong>Web Design & User Experience (UX)</strong></span> Interested in creating visually appealing and accessible web pages, with a focus on usability and user-centered design</li><br>
+        <li><span><strong>JAVASCRIPT& Frontend Frameworks</strong></span> Eager to improve my JavaScript skills, including learning ES6+ features, asynchronous programming, and exploring frameworks such as React and Vue.js for building dynamic web applications.</li><br>
+        <li><span><strong>Open Source Contributions</strong></span>: Exploring opportunities to contribute to open-source projects on GitHub and collaborate with other developers to enhance my coding abilities.</li><br>
+        <li><span> <strong>Web Accessibility</strong></span>: Interested in ensuring that websites are accessible to all users, including those with disabilities, and learning WCAG guidelines to improve site accessibility.</li>
+    </ul>
+    </div>
+</body>
+</html>
