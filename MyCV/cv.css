@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+body{
+    background-color: rgb(235, 183, 169);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0, 0, 0.1 );
+}
+.container .left-side{
+    position: relative;
+    background: rgb(100, 13, 4);
+    padding: 40px;
+}
+.profile-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+}
+.profile-text h2{
+    color: white;
+    font-size: 1.8em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+
+}
+.profile-text h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contact-info{
+    padding-top: 40px;
+}
+.title{
+    color: beige;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact-info ul{
+    position: relative;
+}
+.contact-info ul li {
+    position: relative;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 13px;
+}
+.contact-info ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color:rgba(198, 31, 31, 0.664);
+}
+.contact-info ul li span{
+    color: beige;
+    font-weight: 300;
+}
+.contact-info ul li span a{
+    color: beige;
+}
+.contact-info.education li{
+    margin-top: 15px;
+}
+.contact-info.education h4{
+    color:rgb(112, 12, 12) ;
+    font-weight: 500;
+}
+.contact-info.education h3:nth-child(2){
+    color: beige;
+    font-weight:600 ;
+}
+.contact-info.education h3{
+    color: beige;
+    font-weight:200 ;
+}
+.container .right-side{
+    position: relative;
+    background: white;
+    padding: 40px;
+}
+img{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+.about{
+    margin-top: 50px;
+}
+.about p:last-child{
+    margin-top: 0;
+}
+.title2{
+    color: rgb(118, 10, 10);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color: rgb(77, 8, 8)
+
+}
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .box h4{
+    text-transform: uppercase;
+    color: rgba(137, 40, 40, 0.826);
+    font-weight: 500;
+}
+.skills .box .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: rgba(153, 108, 94, 0.826) ;
+}
+.skills .box .percent div {
+    height: 100%; 
+    background-color: rgba(137, 40, 40, 0.826) ; 
+    transition: width 2s ease-out; /* Animation for smooth progress */
+}
+.interests ul li span{
+    font-weight: 300;
+    color: rgba(104, 39, 19, 0.826); 
+}
+.interests ul li{
+    color:rgb(77, 8, 8) ;
+}
+
